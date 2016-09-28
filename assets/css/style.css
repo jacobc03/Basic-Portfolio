@@ -1,3 +1,109 @@
+body {
+	background-image: url(../images/wov.png);
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+
+}
+
+/** Main header CSS **/
+.customheader {
+	border-color: #cccccc;
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-width: 4px;
+	overflow: auto;
+	width: 960px;
+	height: 60px;
+}
+
 #logo {
-	color:red;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: Georgia;
+	background-color: #4aaaa5;
+	padding: 3px 0 3px 30px;
+	margin-left: 50px;
+	width: 200px;
+	height: 60px;
+	float: left;
+
+}
+
+#links {
+	float: right;
+	width: 250px;
+	padding-top: 20px;
+	padding-right: 50px;
+	
+	
+}
+
+.mainbody {
+
+}
+.body {
+	
+	width: 550px;
+	margin: 10px 0 0 50px;
+	
+	
+
+}
+
+.profile {
+	float: left;
+	margin: 0 20px 0 0;
+	padding:0 20px 20px 0;
+	
+}
+
+.me{
+	color: #4aaaa5;
+	float: left;
+	background-color: #ffffff;
+	padding-left: 20px;
+
+	
+}
+
+.connect {
+	color: #4aaaa5;
+	font-size: 15px;
+	font-family: Georgia;
+	text-align: center;
+	align-content: center;
+	float: right;
+	background-color: #ffffff;
+	width: 200px;
+	margin-right: 120px;
+	padding-bottom: 16px;
+	
+	
+
+
+}
+
+.piclink {
+	height: 45px;
+	width: 45px;
+}
+.text{
+	color: #777777;
+}
+
+
+.footer {
+	clear: both; 
+	font-size: 10px;
+	background-color: #666666;
+	color: #777777;
+	text-align: center;
+	font-family: arial;
+	padding: 30px;
+	border-top-style: solid;
+	border-width: 8px;
+	border-color: #4aaaa5;
+	width: 960px;
+
 }
