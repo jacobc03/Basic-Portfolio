@@ -8,7 +8,6 @@ body {
 	margin-right: auto;
 	width: 960px;
 	margin: 0 0 40px;
-
 }
 
 
@@ -22,7 +21,6 @@ body {
 	width: 100%;
 	height: 60px;
 }
-
 #logo {
 	color: #ffffff;
 	font-size: 12px;
@@ -33,46 +31,33 @@ body {
 	width: 200px;
 	height: 60px;
 	float: left;
-
 }
-
 #links {
+	font-family: Arial;
 	float: right;
 	width: 250px;
 	padding-top: 20px;
-	padding-right: 50px;
-	
-	
+	padding-right: 50px;	
 }
 
-.mainbody {
-
-}
+/** Main Content CSS **/
 .body {
-	
 	width: 550px;
 	margin: 10px 0 0 50px;
-	
-	
-
 }
-
 .profile {
 	float: left;
 	margin: 0 20px 0 0;
 	padding:0 20px 20px 0;
-	
 }
-
 .header2{
 	color: #4aaaa5;
 	float: left;
 	background-color: #ffffff;
-	padding-left: 20px;
-
-	
+	padding-left: 20px;	
+	font-family: Georgia;
 }
-
+/** Professional Link CSS **/
 .connect {
 	color: #4aaaa5;
 	font-size: 15px;
@@ -84,19 +69,8 @@ body {
 	width: 200px;
 	margin-right: 120px;
 	padding-bottom: 16px;
-	
-	
-
-
 }
 
-.piclink {
-	height: 45px;
-	width: 45px;
-}
-.text{
-	color: #777777;
-}
 
 
 
@@ -119,7 +93,15 @@ body {
 	border-color: #4aaaa5;
 	padding-top: 17px;
 }
-
+/** Index.html Only **/
+.piclink {
+	height: 45px;
+	width: 45px;
+}
+.text{
+	color: #777777;
+	font-family: Arial;
+}
 /**Contact.html Only**/
 .textarea {
 	width: 524px;
@@ -141,4 +123,12 @@ body {
 }
 .textbox {
 		color: #777777;
+		font-family: Arial;
 }
+/**Portfolio.html Only**/
+
+.portfolio {
+	float: left;
+	padding: 12px;
+	height: 130px;
+	width: 200px;
