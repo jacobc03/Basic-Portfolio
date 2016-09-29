@@ -11,7 +11,10 @@ body {
 	overflow: 
 }
  
-
+hr {
+	border-color: #dddddd;
+	width: 480px;
+}
 /** Main header CSS **/
 .customheader {
 	border-color: #cccccc;
@@ -72,6 +75,9 @@ body {
 .piclink {
 	height: 45px;
 	width: 45px;
+}
+.border{
+	width: 130px;
 }
 .footer {
 	/**sticky footer code**/
