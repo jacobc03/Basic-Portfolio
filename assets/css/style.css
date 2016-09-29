@@ -8,6 +8,7 @@ body {
 	margin-right: auto;
 	width: 960px;
 	margin: 0 0 40px;
+	overflow: 
 }
 
 
@@ -41,14 +42,12 @@ body {
 }
 
 /** Main Content CSS **/
+.box {
+	overflow: auto;
+}
 .body {
 	width: 550px;
 	margin: 10px 0 0 50px;
-}
-.profile {
-	float: left;
-	margin: 0 20px 0 0;
-	padding:0 20px 20px 0;
 }
 .header2{
 	color: #4aaaa5;
@@ -70,17 +69,17 @@ body {
 	margin-right: 120px;
 	padding-bottom: 16px;
 }
-
-
-
-
+.piclink {
+	height: 45px;
+	width: 45px;
+}
 .footer {
 	/**sticky footer code**/
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	height: 40px;
-	width: 960px;
+	width: 100%;
 
 	clear: both; 
 	font-size: 10px;
@@ -93,15 +92,18 @@ body {
 	border-color: #4aaaa5;
 	padding-top: 17px;
 }
-/** Index.html Only **/
-.piclink {
-	height: 45px;
-	width: 45px;
-}
+
+/**Index.html Only**/
 .text{
 	color: #777777;
 	font-family: Arial;
 }
+.profile {
+	float: left;
+	margin: 0 20px 0 0;
+	padding:0 20px 20px 0;
+}
+
 /**Contact.html Only**/
 .textarea {
 	width: 524px;
@@ -126,9 +128,74 @@ body {
 		font-family: Arial;
 }
 /**Portfolio.html Only**/
+.image {
+	position: relative;
+	width: 100%;
+}
+.image2 {
+	position: absolute;
+	top:75px;
+	left: 0px;
+	width: 188px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-left:  12px;
+	text-align: center;
+	padding: 8px;
+	font-family: arial;
 
+}
+.image3 {
+	position: absolute;
+	top:75px;
+	left: 0px;
+	width: 184px;
+	background-color: #4aaaa5;
+	margin-left:  236px;
+	color: #ffffff;
+	text-align: center;
+	padding: 8px; 
+	font-family: arial;
+}
+.image4 {
+	position: absolute;
+	top:217px;
+	left: 0px;
+	width: 183px;
+	background-color: #4aaaa5;
+	margin-left:  12px;
+	color: #ffffff;
+	text-align: center;
+	padding: 8px; 
+	font-family: arial;
+}
+.image5 {
+	position: absolute;
+	top:217px;
+	left: 0px;
+	width: 184px;
+	background-color: #4aaaa5;
+	margin-left:  236px;
+	color: #ffffff;
+	text-align: center;
+	padding: 8px; 
+	font-family: arial;
+}
+.image6 {
+	position: absolute;
+	top:359px;
+	left: 0px;
+	width: 184px;
+	background-color: #4aaaa5;
+	margin-left:  12px;
+	color: #ffffff;
+	text-align: center;
+	padding: 8px; 
+	font-family: arial;
+}
 .portfolio {
 	float: left;
 	padding: 12px;
-	height: 130px;
+	height: 120px;
 	width: 200px;
+}
