@@ -90,7 +90,7 @@ Make a 'sticky footer.' You will notice the dark grey footer will always rest ju
 
 No sticky footer
 Has sticky footer
-https://github.com/UCF-Coding-Boot-Camp/09-16-VW-Class-Content/raw/master/homework-assignments/01-html-css/Instructions/Images/bonus_stickyfooter.jpg
+
 Try to code the footer in a way that it will always remain at the bottom of the page, no matter how short the content is. A sticky footer tutorial can be found here.
 Helpful Hints:
 
